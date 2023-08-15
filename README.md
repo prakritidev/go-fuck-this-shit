@@ -1,9 +1,9 @@
 # go-fuck-this-shit
 
 
-## Learning Go in 3 hours.
+## Learning Go in 24 hours.
 
-I've taken a task to learn Go in 3 hours, will share my notes and resource where I got the information from. 
+I've taken a task to learn Go in 24 hours, will share my notes and resource where I got the information from. 
 
 
 ## Project Idea.
