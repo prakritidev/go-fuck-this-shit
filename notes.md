@@ -6,7 +6,12 @@
 
 # Refelection 
 
+
+
+
 # What is sturct ?
+
+This is like Java plain object stuff. Its different tahan the type
 
 # What the fucks is concurrency and parallel ?
 
@@ -67,9 +72,11 @@ create individial task that will run independent of you main method, howver you 
 This is not a classic java joinAndFork implementation.
 
 
+
+
+
+
 ### Advanced Go concurrency patterns. 
-
-
 
 Even though we don't have mutex and semaphore, go still has deadlocks. 
 
