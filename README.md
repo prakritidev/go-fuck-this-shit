@@ -15,3 +15,11 @@ maybe we'll create server usinng java classes rather than using spring or some o
 
 Let's do this.
 ```
+
+
+
+1. evening_jobfeed => Score is not stored in db.
+2. branded_job => tested
+3. jobfeed_process => scored db is not configured. 
+4. Evening Single => Scores are not updating in redis. 
+5. Email_prod => Score are not updating in redis 

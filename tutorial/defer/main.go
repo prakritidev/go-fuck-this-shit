@@ -16,23 +16,18 @@ What is defer and when to use it ?
 
 */
 
-
-func a(){
+func a() {
 	i := 0
 	defer fmt.Print(i)
 	i++
 	fmt.Println("\n")
 	return
-
 }
 
-
 func b() {
-	
-	for i:= 0; i < 4; i++ {
+	for i := 0; i < 4; i++ {
 		defer fmt.Print(i)
 	}
-	
 }
 
 func c() {
@@ -41,23 +36,20 @@ func c() {
 	defer fmt.Println("Yohoho2")
 	fmt.Println("duck")
 	fmt.Println("\n")
-
 }
 
 func d() (i int) {
-    defer func() { i++ }()
-    return 1
+	defer func() { i++ }()
+	return 1
 }
 
-
-func main(){
-//  Exmpale 1:
+func main() {
+	//  Exmpale 1:
 	// defer a()
-// Example 2: A deferred function’s arguments are evaluated when the defer statement is evaluated.
+	// Example 2:
 	// defer b()
-// Example 3: Deferred function calls are executed in Last In First Out order after the surrounding function returns.
+	// Example 3: Deferred function calls are executed in Last In First Out order after the surrounding function returns.
 	// defer c()
-// Example 4: Deferred functions may read and assign to the returning function’s named return values.
+	// Example 4: Deferred functions may read and assign to the returning function’s named return values.
 	defer fmt.Println(d())
-
 }
