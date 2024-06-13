@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 	"github.com/gorilla/mux"
-	"github.com/elastic/go-elasticsearch/v7"
+	// "github.com/elastic/go-elasticsearch/v7"
 )
 
 func server(server string) *APIServer {

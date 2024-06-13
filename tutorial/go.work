@@ -1,6 +1,9 @@
-go 1.21.0
+go 1.21.11
+
+toolchain go1.22.0
 
 use (
+	./go.dev/hello
 	./mongodb
 	./racecomdition
 	./webHandling
