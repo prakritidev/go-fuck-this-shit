@@ -1,9 +1,8 @@
-go 1.21.11
-
-toolchain go1.22.0
+go 1.22.0
 
 use (
 	./go.dev/hello
+	./go.dev/web-service-gin
 	./mongodb
 	./racecomdition
 	./webHandling
