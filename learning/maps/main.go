@@ -9,18 +9,16 @@ func plus(a, b int) int {
 	return a + b
 }
 
-fucc returnMultipleValues(int, int ,int) {
-  
-  return 3,5,7
+func returnMultipleValues(a, b, c int) (int, int, int) {
+	return a, b, c
 }
 
 func main() {
 	res := plus(1, 2)
 	fmt.Println(" 1+2 =", res)
 
-
-  _, c := vals()
-    fmt.Println(c)
+	a, b, c := returnMultipleValues(1, 2, 3)
+	fmt.Println("a, b, c", a, b, c)
 
 	fmt.Println("==============")
 	m := make(map[string]int)
