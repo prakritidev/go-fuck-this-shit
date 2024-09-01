@@ -9,9 +9,18 @@ func plus(a, b int) int {
 	return a + b
 }
 
+fucc returnMultipleValues(int, int ,int) {
+  
+  return 3,5,7
+}
+
 func main() {
 	res := plus(1, 2)
 	fmt.Println(" 1+2 =", res)
+
+
+  _, c := vals()
+    fmt.Println(c)
 
 	fmt.Println("==============")
 	m := make(map[string]int)
